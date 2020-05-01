@@ -39,10 +39,21 @@ https://angular.io/guide/router
 
 S'afegeixen les rutes al mòdul principal, app.module.ts. S'indica la ruta i el component que s'executaràà
 
+# TEST
+http://www.protractortest.org
+
+
 # DESPLEGAMENT
+https://angular.io/start/start-deployment
 
 Procés de desplegament:
 * Descarregar el projecte de Stackblitz a una màquina local
+  $ git clone <stackblitz-project>
 * Compilar el projecte i generar els elements JavaScript, CSS i HTML
-* Hostatjar els elements JavaScript, CSS i HTML en un servidor web
+  $ npm install -g @angular/cli
+  $ ng new my-project-name
+  $ cd my-project-name
+  $ cp -R ../<stackblits-project>/src ./src
+  $ ng build --prod
+* Hostatjar els elements JavaScript, CSS i HTML en un servidor web, aquests elements són estàtics i es troben a la carpeta /dist/my-project-name
 
