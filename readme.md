@@ -22,8 +22,8 @@ Els components es poden comunicar entre ells de diferent manera: https://angular
 ### Templates (html)
 Elements dels template (html) https://angular.io/guide/template-syntax 
 Directives estructurals: comenen per *, modifiquen l'estructura del DOM, p.e.:
-* <div *ngFor="let product of products">...</div>
-* <p *ngIf="product.description">...</p>
+* ```<div *ngFor="let product of products">...</div>```
+* ```<p *ngIf="product.description">...</p>```
 Interpolation: {{}} renderitza el valor de la propietat com un text
 Property binding: [] permet fer servir el valor d'una propietat en una expressió del template
 Event binding: () permet vincular un event en un element
